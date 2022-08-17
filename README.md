@@ -2,7 +2,7 @@
 
 A reproduction of broken SSR with CommonJS dependencies and Yarn PnP.
 
-`app` (a workspace) depends on `pkg-a` (another workspace) which depends on `locale` (a npm dependency).
+`app` (a workspace) depends on `pkg-a` (another workspace) which depends on `locale` (a CommonJS npm dependency).
 
 SSR crashes with `ReferenceError: module is not defined` from `locale`.
 
