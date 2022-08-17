@@ -1,0 +1,8 @@
+{
+    "name": "app",
+    "dependencies": {
+        "express": "^4.18.1",
+        "pkg-a": "workspace:*",
+        "vite": "^3.0.5"
+    }
+}

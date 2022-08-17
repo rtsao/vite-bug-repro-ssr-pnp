@@ -1,0 +1,6 @@
+{
+  "name": "pkg-a",
+  "dependencies": {
+    "locale": "^0.1.0"
+  }
+}
